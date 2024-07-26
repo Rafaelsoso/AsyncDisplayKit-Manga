@@ -1,0 +1,808 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		351DAF6F98363D5D5F6D7CFA /* Pods_AsyncDisplayKit_MangaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 696BB59A99542703BDF9E734 /* Pods_AsyncDisplayKit_MangaTests.framework */; };
+		5E7C1DDC8EB7B6789C85B8E5 /* Pods_AsyncDisplayKit_Manga.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26CDDDE9E7CC88F68619414B /* Pods_AsyncDisplayKit_Manga.framework */; };
+		ADE5ECBF384E8A500208BB15 /* Pods_AsyncDisplayKit_Manga_AsyncDisplayKit_MangaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 029DE21AA2184224E23D630C /* Pods_AsyncDisplayKit_Manga_AsyncDisplayKit_MangaUITests.framework */; };
+		FA3900732C53475500C2F337 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3900722C53475500C2F337 /* Post.swift */; };
+		FA3900752C53476500C2F337 /* PostCellNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3900742C53476500C2F337 /* PostCellNode.swift */; };
+		FA39007B2C534B6E00C2F337 /* TimeStamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3900782C534B6E00C2F337 /* TimeStamp.swift */; };
+		FA39007C2C534B6E00C2F337 /* TitleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3900792C534B6E00C2F337 /* TitleModel.swift */; };
+		FA39007D2C534B6E00C2F337 /* TagModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA39007A2C534B6E00C2F337 /* TagModel.swift */; };
+		FA3900802C534BCF00C2F337 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA39007F2C534BCF00C2F337 /* NetworkManager.swift */; };
+		FAD04D342C4FBF7700A9F948 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD04D332C4FBF7700A9F948 /* AppDelegate.swift */; };
+		FAD04D362C4FBF7700A9F948 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD04D352C4FBF7700A9F948 /* SceneDelegate.swift */; };
+		FAD04D382C4FBF7700A9F948 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD04D372C4FBF7700A9F948 /* FeedViewController.swift */; };
+		FAD04D3B2C4FBF7700A9F948 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD04D392C4FBF7700A9F948 /* Main.storyboard */; };
+		FAD04D3D2C4FBF7900A9F948 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAD04D3C2C4FBF7900A9F948 /* Assets.xcassets */; };
+		FAD04D402C4FBF7900A9F948 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD04D3E2C4FBF7900A9F948 /* LaunchScreen.storyboard */; };
+		FAD04D4B2C4FBF7900A9F948 /* AsyncDisplayKit_MangaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD04D4A2C4FBF7900A9F948 /* AsyncDisplayKit_MangaTests.swift */; };
+		FAD04D552C4FBF7A00A9F948 /* AsyncDisplayKit_MangaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD04D542C4FBF7A00A9F948 /* AsyncDisplayKit_MangaUITests.swift */; };
+		FAD04D572C4FBF7A00A9F948 /* AsyncDisplayKit_MangaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD04D562C4FBF7A00A9F948 /* AsyncDisplayKit_MangaUITestsLaunchTests.swift */; };
+		FAE223112C525BBD009AA43C /* CardNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE223102C525BBD009AA43C /* CardNode.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAD04D472C4FBF7900A9F948 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAD04D282C4FBF7700A9F948 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAD04D2F2C4FBF7700A9F948;
+			remoteInfo = "AsyncDisplayKit-Manga";
+		};
+		FAD04D512C4FBF7A00A9F948 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAD04D282C4FBF7700A9F948 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAD04D2F2C4FBF7700A9F948;
+			remoteInfo = "AsyncDisplayKit-Manga";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		029DE21AA2184224E23D630C /* Pods_AsyncDisplayKit_Manga_AsyncDisplayKit_MangaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AsyncDisplayKit_Manga_AsyncDisplayKit_MangaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		227489286441551122B695C2 /* Pods-AsyncDisplayKit-Manga.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsyncDisplayKit-Manga.debug.xcconfig"; path = "Target Support Files/Pods-AsyncDisplayKit-Manga/Pods-AsyncDisplayKit-Manga.debug.xcconfig"; sourceTree = "<group>"; };
+		26CDDDE9E7CC88F68619414B /* Pods_AsyncDisplayKit_Manga.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AsyncDisplayKit_Manga.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3145E32F1CCF8A64F18F51E8 /* Pods-AsyncDisplayKit-MangaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsyncDisplayKit-MangaTests.release.xcconfig"; path = "Target Support Files/Pods-AsyncDisplayKit-MangaTests/Pods-AsyncDisplayKit-MangaTests.release.xcconfig"; sourceTree = "<group>"; };
+		696BB59A99542703BDF9E734 /* Pods_AsyncDisplayKit_MangaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AsyncDisplayKit_MangaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A75E69BBA21D31277CD226C5 /* Pods-AsyncDisplayKit-MangaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsyncDisplayKit-MangaTests.debug.xcconfig"; path = "Target Support Files/Pods-AsyncDisplayKit-MangaTests/Pods-AsyncDisplayKit-MangaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B86B19A51EC6F045C68EE8D0 /* Pods-AsyncDisplayKit-Manga-AsyncDisplayKit-MangaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsyncDisplayKit-Manga-AsyncDisplayKit-MangaUITests.debug.xcconfig"; path = "Target Support Files/Pods-AsyncDisplayKit-Manga-AsyncDisplayKit-MangaUITests/Pods-AsyncDisplayKit-Manga-AsyncDisplayKit-MangaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BE071EE8E60EFE134C79C1A0 /* Pods-AsyncDisplayKit-Manga-AsyncDisplayKit-MangaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsyncDisplayKit-Manga-AsyncDisplayKit-MangaUITests.release.xcconfig"; path = "Target Support Files/Pods-AsyncDisplayKit-Manga-AsyncDisplayKit-MangaUITests/Pods-AsyncDisplayKit-Manga-AsyncDisplayKit-MangaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F97D93783B09356C9B15ADF7 /* Pods-AsyncDisplayKit-Manga.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsyncDisplayKit-Manga.release.xcconfig"; path = "Target Support Files/Pods-AsyncDisplayKit-Manga/Pods-AsyncDisplayKit-Manga.release.xcconfig"; sourceTree = "<group>"; };
+		FA3900722C53475500C2F337 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		FA3900742C53476500C2F337 /* PostCellNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCellNode.swift; sourceTree = "<group>"; };
+		FA3900782C534B6E00C2F337 /* TimeStamp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeStamp.swift; sourceTree = "<group>"; };
+		FA3900792C534B6E00C2F337 /* TitleModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleModel.swift; sourceTree = "<group>"; };
+		FA39007A2C534B6E00C2F337 /* TagModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagModel.swift; sourceTree = "<group>"; };
+		FA39007F2C534BCF00C2F337 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		FAD04D302C4FBF7700A9F948 /* AsyncDisplayKit-Manga.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AsyncDisplayKit-Manga.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD04D332C4FBF7700A9F948 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAD04D352C4FBF7700A9F948 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FAD04D372C4FBF7700A9F948 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		FAD04D3A2C4FBF7700A9F948 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAD04D3C2C4FBF7900A9F948 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAD04D3F2C4FBF7900A9F948 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAD04D412C4FBF7900A9F948 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAD04D462C4FBF7900A9F948 /* AsyncDisplayKit-MangaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AsyncDisplayKit-MangaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD04D4A2C4FBF7900A9F948 /* AsyncDisplayKit_MangaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncDisplayKit_MangaTests.swift; sourceTree = "<group>"; };
+		FAD04D502C4FBF7A00A9F948 /* AsyncDisplayKit-MangaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AsyncDisplayKit-MangaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD04D542C4FBF7A00A9F948 /* AsyncDisplayKit_MangaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncDisplayKit_MangaUITests.swift; sourceTree = "<group>"; };
+		FAD04D562C4FBF7A00A9F948 /* AsyncDisplayKit_MangaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncDisplayKit_MangaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FAE223102C525BBD009AA43C /* CardNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardNode.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAD04D2D2C4FBF7700A9F948 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E7C1DDC8EB7B6789C85B8E5 /* Pods_AsyncDisplayKit_Manga.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD04D432C4FBF7900A9F948 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				351DAF6F98363D5D5F6D7CFA /* Pods_AsyncDisplayKit_MangaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD04D4D2C4FBF7A00A9F948 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADE5ECBF384E8A500208BB15 /* Pods_AsyncDisplayKit_Manga_AsyncDisplayKit_MangaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		917A9B2CFD2E0A1F8E5AB05F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				227489286441551122B695C2 /* Pods-AsyncDisplayKit-Manga.debug.xcconfig */,
+				F97D93783B09356C9B15ADF7 /* Pods-AsyncDisplayKit-Manga.release.xcconfig */,
+				B86B19A51EC6F045C68EE8D0 /* Pods-AsyncDisplayKit-Manga-AsyncDisplayKit-MangaUITests.debug.xcconfig */,
+				BE071EE8E60EFE134C79C1A0 /* Pods-AsyncDisplayKit-Manga-AsyncDisplayKit-MangaUITests.release.xcconfig */,
+				A75E69BBA21D31277CD226C5 /* Pods-AsyncDisplayKit-MangaTests.debug.xcconfig */,
+				3145E32F1CCF8A64F18F51E8 /* Pods-AsyncDisplayKit-MangaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CBDCDCE14F2F251E22EC5BB0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26CDDDE9E7CC88F68619414B /* Pods_AsyncDisplayKit_Manga.framework */,
+				029DE21AA2184224E23D630C /* Pods_AsyncDisplayKit_Manga_AsyncDisplayKit_MangaUITests.framework */,
+				696BB59A99542703BDF9E734 /* Pods_AsyncDisplayKit_MangaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA3900762C5349CF00C2F337 /* FeedViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FAD04D372C4FBF7700A9F948 /* FeedViewController.swift */,
+				FAE223102C525BBD009AA43C /* CardNode.swift */,
+				FA3900722C53475500C2F337 /* Post.swift */,
+				FA3900742C53476500C2F337 /* PostCellNode.swift */,
+			);
+			path = FeedViewController;
+			sourceTree = "<group>";
+		};
+		FA3900772C534B5B00C2F337 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FA39007A2C534B6E00C2F337 /* TagModel.swift */,
+				FA3900782C534B6E00C2F337 /* TimeStamp.swift */,
+				FA3900792C534B6E00C2F337 /* TitleModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FAD04D272C4FBF7700A9F948 = {
+			isa = PBXGroup;
+			children = (
+				FAD04D322C4FBF7700A9F948 /* AsyncDisplayKit-Manga */,
+				FAD04D492C4FBF7900A9F948 /* AsyncDisplayKit-MangaTests */,
+				FAD04D532C4FBF7A00A9F948 /* AsyncDisplayKit-MangaUITests */,
+				FAD04D312C4FBF7700A9F948 /* Products */,
+				917A9B2CFD2E0A1F8E5AB05F /* Pods */,
+				CBDCDCE14F2F251E22EC5BB0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FAD04D312C4FBF7700A9F948 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAD04D302C4FBF7700A9F948 /* AsyncDisplayKit-Manga.app */,
+				FAD04D462C4FBF7900A9F948 /* AsyncDisplayKit-MangaTests.xctest */,
+				FAD04D502C4FBF7A00A9F948 /* AsyncDisplayKit-MangaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAD04D322C4FBF7700A9F948 /* AsyncDisplayKit-Manga */ = {
+			isa = PBXGroup;
+			children = (
+				FA3900772C534B5B00C2F337 /* Models */,
+				FAD04D332C4FBF7700A9F948 /* AppDelegate.swift */,
+				FAD04D352C4FBF7700A9F948 /* SceneDelegate.swift */,
+				FA3900762C5349CF00C2F337 /* FeedViewController */,
+				FAD04D392C4FBF7700A9F948 /* Main.storyboard */,
+				FAD04D3C2C4FBF7900A9F948 /* Assets.xcassets */,
+				FAD04D3E2C4FBF7900A9F948 /* LaunchScreen.storyboard */,
+				FAD04D412C4FBF7900A9F948 /* Info.plist */,
+				FA39007F2C534BCF00C2F337 /* NetworkManager.swift */,
+			);
+			path = "AsyncDisplayKit-Manga";
+			sourceTree = "<group>";
+		};
+		FAD04D492C4FBF7900A9F948 /* AsyncDisplayKit-MangaTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAD04D4A2C4FBF7900A9F948 /* AsyncDisplayKit_MangaTests.swift */,
+			);
+			path = "AsyncDisplayKit-MangaTests";
+			sourceTree = "<group>";
+		};
+		FAD04D532C4FBF7A00A9F948 /* AsyncDisplayKit-MangaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAD04D542C4FBF7A00A9F948 /* AsyncDisplayKit_MangaUITests.swift */,
+				FAD04D562C4FBF7A00A9F948 /* AsyncDisplayKit_MangaUITestsLaunchTests.swift */,
+			);
+			path = "AsyncDisplayKit-MangaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAD04D2F2C4FBF7700A9F948 /* AsyncDisplayKit-Manga */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD04D5A2C4FBF7A00A9F948 /* Build configuration list for PBXNativeTarget "AsyncDisplayKit-Manga" */;
+			buildPhases = (
+				E9C1692352D4F011F5815FEE /* [CP] Check Pods Manifest.lock */,
+				FAD04D2C2C4FBF7700A9F948 /* Sources */,
+				FAD04D2D2C4FBF7700A9F948 /* Frameworks */,
+				FAD04D2E2C4FBF7700A9F948 /* Resources */,
+				0097F475992AF3F7E3540EB1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AsyncDisplayKit-Manga";
+			productName = "AsyncDisplayKit-Manga";
+			productReference = FAD04D302C4FBF7700A9F948 /* AsyncDisplayKit-Manga.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAD04D452C4FBF7900A9F948 /* AsyncDisplayKit-MangaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD04D5D2C4FBF7A00A9F948 /* Build configuration list for PBXNativeTarget "AsyncDisplayKit-MangaTests" */;
+			buildPhases = (
+				9AE62BBB2D1F7EDB4EE49874 /* [CP] Check Pods Manifest.lock */,
+				FAD04D422C4FBF7900A9F948 /* Sources */,
+				FAD04D432C4FBF7900A9F948 /* Frameworks */,
+				FAD04D442C4FBF7900A9F948 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAD04D482C4FBF7900A9F948 /* PBXTargetDependency */,
+			);
+			name = "AsyncDisplayKit-MangaTests";
+			productName = "AsyncDisplayKit-MangaTests";
+			productReference = FAD04D462C4FBF7900A9F948 /* AsyncDisplayKit-MangaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAD04D4F2C4FBF7A00A9F948 /* AsyncDisplayKit-MangaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD04D602C4FBF7A00A9F948 /* Build configuration list for PBXNativeTarget "AsyncDisplayKit-MangaUITests" */;
+			buildPhases = (
+				8640D25D004156B3A80F27DA /* [CP] Check Pods Manifest.lock */,
+				FAD04D4C2C4FBF7A00A9F948 /* Sources */,
+				FAD04D4D2C4FBF7A00A9F948 /* Frameworks */,
+				FAD04D4E2C4FBF7A00A9F948 /* Resources */,
+				4B58128EE6A5E9E03E0C75CB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAD04D522C4FBF7A00A9F948 /* PBXTargetDependency */,
+			);
+			name = "AsyncDisplayKit-MangaUITests";
+			productName = "AsyncDisplayKit-MangaUITests";
+			productReference = FAD04D502C4FBF7A00A9F948 /* AsyncDisplayKit-MangaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAD04D282C4FBF7700A9F948 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					FAD04D2F2C4FBF7700A9F948 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					FAD04D452C4FBF7900A9F948 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = FAD04D2F2C4FBF7700A9F948;
+					};
+					FAD04D4F2C4FBF7A00A9F948 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = FAD04D2F2C4FBF7700A9F948;
+					};
+				};
+			};
+			buildConfigurationList = FAD04D2B2C4FBF7700A9F948 /* Build configuration list for PBXProject "AsyncDisplayKit-Manga" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAD04D272C4FBF7700A9F948;
+			productRefGroup = FAD04D312C4FBF7700A9F948 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAD04D2F2C4FBF7700A9F948 /* AsyncDisplayKit-Manga */,
+				FAD04D452C4FBF7900A9F948 /* AsyncDisplayKit-MangaTests */,
+				FAD04D4F2C4FBF7A00A9F948 /* AsyncDisplayKit-MangaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAD04D2E2C4FBF7700A9F948 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD04D402C4FBF7900A9F948 /* LaunchScreen.storyboard in Resources */,
+				FAD04D3D2C4FBF7900A9F948 /* Assets.xcassets in Resources */,
+				FAD04D3B2C4FBF7700A9F948 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD04D442C4FBF7900A9F948 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD04D4E2C4FBF7A00A9F948 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0097F475992AF3F7E3540EB1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AsyncDisplayKit-Manga/Pods-AsyncDisplayKit-Manga-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AsyncDisplayKit-Manga/Pods-AsyncDisplayKit-Manga-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AsyncDisplayKit-Manga/Pods-AsyncDisplayKit-Manga-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B58128EE6A5E9E03E0C75CB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AsyncDisplayKit-Manga-AsyncDisplayKit-MangaUITests/Pods-AsyncDisplayKit-Manga-AsyncDisplayKit-MangaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AsyncDisplayKit-Manga-AsyncDisplayKit-MangaUITests/Pods-AsyncDisplayKit-Manga-AsyncDisplayKit-MangaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AsyncDisplayKit-Manga-AsyncDisplayKit-MangaUITests/Pods-AsyncDisplayKit-Manga-AsyncDisplayKit-MangaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8640D25D004156B3A80F27DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AsyncDisplayKit-Manga-AsyncDisplayKit-MangaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AE62BBB2D1F7EDB4EE49874 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AsyncDisplayKit-MangaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9C1692352D4F011F5815FEE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AsyncDisplayKit-Manga-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAD04D2C2C4FBF7700A9F948 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA39007D2C534B6E00C2F337 /* TagModel.swift in Sources */,
+				FAD04D382C4FBF7700A9F948 /* FeedViewController.swift in Sources */,
+				FA3900802C534BCF00C2F337 /* NetworkManager.swift in Sources */,
+				FAE223112C525BBD009AA43C /* CardNode.swift in Sources */,
+				FAD04D342C4FBF7700A9F948 /* AppDelegate.swift in Sources */,
+				FA39007B2C534B6E00C2F337 /* TimeStamp.swift in Sources */,
+				FAD04D362C4FBF7700A9F948 /* SceneDelegate.swift in Sources */,
+				FA3900732C53475500C2F337 /* Post.swift in Sources */,
+				FA39007C2C534B6E00C2F337 /* TitleModel.swift in Sources */,
+				FA3900752C53476500C2F337 /* PostCellNode.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD04D422C4FBF7900A9F948 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD04D4B2C4FBF7900A9F948 /* AsyncDisplayKit_MangaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD04D4C2C4FBF7A00A9F948 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD04D572C4FBF7A00A9F948 /* AsyncDisplayKit_MangaUITestsLaunchTests.swift in Sources */,
+				FAD04D552C4FBF7A00A9F948 /* AsyncDisplayKit_MangaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAD04D482C4FBF7900A9F948 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAD04D2F2C4FBF7700A9F948 /* AsyncDisplayKit-Manga */;
+			targetProxy = FAD04D472C4FBF7900A9F948 /* PBXContainerItemProxy */;
+		};
+		FAD04D522C4FBF7A00A9F948 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAD04D2F2C4FBF7700A9F948 /* AsyncDisplayKit-Manga */;
+			targetProxy = FAD04D512C4FBF7A00A9F948 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAD04D392C4FBF7700A9F948 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAD04D3A2C4FBF7700A9F948 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAD04D3E2C4FBF7900A9F948 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAD04D3F2C4FBF7900A9F948 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAD04D582C4FBF7A00A9F948 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAD04D592C4FBF7A00A9F948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAD04D5B2C4FBF7A00A9F948 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 227489286441551122B695C2 /* Pods-AsyncDisplayKit-Manga.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AsyncDisplayKit-Manga/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Poldi.AsyncDisplayKit-Manga";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAD04D5C2C4FBF7A00A9F948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F97D93783B09356C9B15ADF7 /* Pods-AsyncDisplayKit-Manga.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AsyncDisplayKit-Manga/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Poldi.AsyncDisplayKit-Manga";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FAD04D5E2C4FBF7A00A9F948 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A75E69BBA21D31277CD226C5 /* Pods-AsyncDisplayKit-MangaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Poldi.AsyncDisplayKit-MangaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AsyncDisplayKit-Manga.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AsyncDisplayKit-Manga";
+			};
+			name = Debug;
+		};
+		FAD04D5F2C4FBF7A00A9F948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3145E32F1CCF8A64F18F51E8 /* Pods-AsyncDisplayKit-MangaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Poldi.AsyncDisplayKit-MangaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AsyncDisplayKit-Manga.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AsyncDisplayKit-Manga";
+			};
+			name = Release;
+		};
+		FAD04D612C4FBF7A00A9F948 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B86B19A51EC6F045C68EE8D0 /* Pods-AsyncDisplayKit-Manga-AsyncDisplayKit-MangaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Poldi.AsyncDisplayKit-MangaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AsyncDisplayKit-Manga";
+			};
+			name = Debug;
+		};
+		FAD04D622C4FBF7A00A9F948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE071EE8E60EFE134C79C1A0 /* Pods-AsyncDisplayKit-Manga-AsyncDisplayKit-MangaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Poldi.AsyncDisplayKit-MangaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AsyncDisplayKit-Manga";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAD04D2B2C4FBF7700A9F948 /* Build configuration list for PBXProject "AsyncDisplayKit-Manga" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD04D582C4FBF7A00A9F948 /* Debug */,
+				FAD04D592C4FBF7A00A9F948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAD04D5A2C4FBF7A00A9F948 /* Build configuration list for PBXNativeTarget "AsyncDisplayKit-Manga" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD04D5B2C4FBF7A00A9F948 /* Debug */,
+				FAD04D5C2C4FBF7A00A9F948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAD04D5D2C4FBF7A00A9F948 /* Build configuration list for PBXNativeTarget "AsyncDisplayKit-MangaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD04D5E2C4FBF7A00A9F948 /* Debug */,
+				FAD04D5F2C4FBF7A00A9F948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAD04D602C4FBF7A00A9F948 /* Build configuration list for PBXNativeTarget "AsyncDisplayKit-MangaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD04D612C4FBF7A00A9F948 /* Debug */,
+				FAD04D622C4FBF7A00A9F948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAD04D282C4FBF7700A9F948 /* Project object */;
+}

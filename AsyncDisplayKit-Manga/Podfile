@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'AsyncDisplayKit-Manga' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for AsyncDisplayKit-Manga
+
+pod "Texture"
+
+  target 'AsyncDisplayKit-MangaTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'AsyncDisplayKit-MangaUITests' do
+    # Pods for testing
+  end
+
+end

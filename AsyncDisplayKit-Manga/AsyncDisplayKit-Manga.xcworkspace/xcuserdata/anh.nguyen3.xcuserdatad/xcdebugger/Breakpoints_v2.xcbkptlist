@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "3B4CA7E8-B1EE-428A-B2C8-860896973109"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CA147F32-585C-46DF-9317-79650E3CAE03"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AsyncDisplayKit-Manga/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "fetchData(from:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CA147F32-585C-46DF-9317-79650E3CAE03 - 546ddb36fc6c1f1e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in AsyncDisplayKit_Manga.NetworkManager.fetchData&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(from: Foundation.URL, completion: (Swift.Result&lt;&#x3c4;_0_0, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "AsyncDisplayKit-Manga"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Poldi/AsyncDisplayKit-Manga/AsyncDisplayKit-Manga/AsyncDisplayKit-Manga/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "1147">
+               </Location>
+               <Location
+                  uuid = "CA147F32-585C-46DF-9317-79650E3CAE03 - 546ddb36fc6c18fd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in AsyncDisplayKit_Manga.NetworkManager.fetchData&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(from: Foundation.URL, completion: (Swift.Result&lt;&#x3c4;_0_0, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "AsyncDisplayKit-Manga"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Poldi/AsyncDisplayKit-Manga/AsyncDisplayKit-Manga/AsyncDisplayKit-Manga/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "896">
+               </Location>
+               <Location
+                  uuid = "CA147F32-585C-46DF-9317-79650E3CAE03 - 546ddb36fc6c18fd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in AsyncDisplayKit_Manga.NetworkManager.fetchData&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(from: Foundation.URL, completion: (Swift.Result&lt;&#x3c4;_0_0, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "AsyncDisplayKit-Manga"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Poldi/AsyncDisplayKit-Manga/AsyncDisplayKit-Manga/AsyncDisplayKit-Manga/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "1429">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "524553E3-22DC-42A5-8F80-95525353D59B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AsyncDisplayKit-Manga/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "fetchData(from:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "524553E3-22DC-42A5-8F80-95525353D59B - 546ddb36fc6c1f3f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in AsyncDisplayKit_Manga.NetworkManager.fetchData&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(from: Foundation.URL, completion: (Swift.Result&lt;&#x3c4;_0_0, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "AsyncDisplayKit-Manga"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Poldi/AsyncDisplayKit-Manga/AsyncDisplayKit-Manga/AsyncDisplayKit-Manga/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "1349">
+               </Location>
+               <Location
+                  uuid = "524553E3-22DC-42A5-8F80-95525353D59B - 546ddb36fc6c18fd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in AsyncDisplayKit_Manga.NetworkManager.fetchData&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(from: Foundation.URL, completion: (Swift.Result&lt;&#x3c4;_0_0, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "AsyncDisplayKit-Manga"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Poldi/AsyncDisplayKit-Manga/AsyncDisplayKit-Manga/AsyncDisplayKit-Manga/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "896">
+               </Location>
+               <Location
+                  uuid = "524553E3-22DC-42A5-8F80-95525353D59B - 546ddb36fc6c18fd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in AsyncDisplayKit_Manga.NetworkManager.fetchData&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(from: Foundation.URL, completion: (Swift.Result&lt;&#x3c4;_0_0, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "AsyncDisplayKit-Manga"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Poldi/AsyncDisplayKit-Manga/AsyncDisplayKit-Manga/AsyncDisplayKit-Manga/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "1429">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "18E85414-F238-4380-8D46-5B665BC5B9B2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AsyncDisplayKit-Manga/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "fetchData(from:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "18E85414-F238-4380-8D46-5B665BC5B9B2 - 83780b93f62b6dff"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AsyncDisplayKit_Manga.HomeGetResponse.success.getter : Swift.Optional&lt;Swift.Bool&gt;"
+                  moduleName = "AsyncDisplayKit-Manga"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Poldi/AsyncDisplayKit-Manga/AsyncDisplayKit-Manga/AsyncDisplayKit-Manga/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "18E85414-F238-4380-8D46-5B665BC5B9B2 - d2e6465f8045f0ea"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AsyncDisplayKit_Manga.HomeGetResponse.success.setter : Swift.Optional&lt;Swift.Bool&gt;"
+                  moduleName = "AsyncDisplayKit-Manga"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Poldi/AsyncDisplayKit-Manga/AsyncDisplayKit-Manga/AsyncDisplayKit-Manga/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "18E85414-F238-4380-8D46-5B665BC5B9B2 - 8ecd282006b982fb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AsyncDisplayKit_Manga.HomeGetResponse.success.modify : Swift.Optional&lt;Swift.Bool&gt;"
+                  moduleName = "AsyncDisplayKit-Manga"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Poldi/AsyncDisplayKit-Manga/AsyncDisplayKit-Manga/AsyncDisplayKit-Manga/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "18E85414-F238-4380-8D46-5B665BC5B9B2 - 78cff7840d935a7b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AsyncDisplayKit_Manga.HomeGetResponse.success.modify : Swift.Optional&lt;Swift.Bool&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "AsyncDisplayKit-Manga"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Poldi/AsyncDisplayKit-Manga/AsyncDisplayKit-Manga/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "15">
+               </Location>
+               <Location
+                  uuid = "18E85414-F238-4380-8D46-5B665BC5B9B2 - 10762a98e02b21c9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AsyncDisplayKit_Manga.HomeGetResponse.init() -&gt; AsyncDisplayKit_Manga.HomeGetResponse"
+                  moduleName = "AsyncDisplayKit-Manga"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Poldi/AsyncDisplayKit-Manga/AsyncDisplayKit-Manga/AsyncDisplayKit-Manga/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "54">
+               </Location>
+               <Location
+                  uuid = "18E85414-F238-4380-8D46-5B665BC5B9B2 - 8dac564a541adcac"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AsyncDisplayKit_Manga.HomeGetResponse.init(from: Swift.Decoder) throws -&gt; AsyncDisplayKit_Manga.HomeGetResponse"
+                  moduleName = "AsyncDisplayKit-Manga"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Poldi/AsyncDisplayKit-Manga/AsyncDisplayKit-Manga/AsyncDisplayKit-Manga/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "236">
+               </Location>
+               <Location
+                  uuid = "18E85414-F238-4380-8D46-5B665BC5B9B2 - 546ddb36fc6c19c4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in AsyncDisplayKit_Manga.NetworkManager.fetchData&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(from: Foundation.URL, completion: (Swift.Result&lt;&#x3c4;_0_0, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "AsyncDisplayKit-Manga"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Poldi/AsyncDisplayKit-Manga/AsyncDisplayKit-Manga/AsyncDisplayKit-Manga/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "2229">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5A742CBA-2257-4E27-A014-DD0527751966"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AsyncDisplayKit-Manga/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "fetchData(from:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5A742CBA-2257-4E27-A014-DD0527751966 - b364957e40b43ffa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AsyncDisplayKit_Manga.NetworkManager.fetchData&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(from: Foundation.URL, completion: (Swift.Result&lt;&#x3c4;_0_0, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "AsyncDisplayKit-Manga"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Poldi/AsyncDisplayKit-Manga/AsyncDisplayKit-Manga/AsyncDisplayKit-Manga/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "589">
+               </Location>
+               <Location
+                  uuid = "5A742CBA-2257-4E27-A014-DD0527751966 - 546ddb36fc6c18a3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in AsyncDisplayKit_Manga.NetworkManager.fetchData&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(from: Foundation.URL, completion: (Swift.Result&lt;&#x3c4;_0_0, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "AsyncDisplayKit-Manga"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Poldi/AsyncDisplayKit-Manga/AsyncDisplayKit-Manga/AsyncDisplayKit-Manga/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "1447">
+               </Location>
+               <Location
+                  uuid = "5A742CBA-2257-4E27-A014-DD0527751966 - 546ddb36fc6c18a3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in AsyncDisplayKit_Manga.NetworkManager.fetchData&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(from: Foundation.URL, completion: (Swift.Result&lt;&#x3c4;_0_0, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "AsyncDisplayKit-Manga"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Poldi/AsyncDisplayKit-Manga/AsyncDisplayKit-Manga/AsyncDisplayKit-Manga/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "1762">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

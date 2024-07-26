@@ -1,0 +1,6 @@
+framework module Pods_AsyncDisplayKit_Manga {
+  umbrella header "Pods-AsyncDisplayKit-Manga-umbrella.h"
+
+  export *
+  module * { export * }
+}
